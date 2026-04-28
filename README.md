@@ -13,6 +13,6 @@ c =	-0.00877194667
 d =	-0.00695148647  
 e =	0.000439710158  
 f =	-0.017756417  
-throttle = a + b*thrust_kg + c*batt_v + d*thrust_kg^2 + e*batt_v^2 + f*thrust_kg*batt_v  
+throttle = a + b x thrust_kg + c x batt_v + d x thrust_kg^2 + e x batt_v^2 + f x thrust_kg x batt_v  
 
 https://docs.google.com/spreadsheets/d/1rI6A6pfYlhxgBcik8Z6lXceg4hGCgs8VEYoh9mVdXdM/edit?usp=sharing
