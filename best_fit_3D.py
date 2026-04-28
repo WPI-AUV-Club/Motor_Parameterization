@@ -6,12 +6,11 @@ import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 import csv
 # Load CSV into numpy array (x, y, z columns)
-csv_data = np.loadtxt('T200_Performance.csv', delimiter=',')
-#csv_data[:, 1] -= 15
+csv_data = np.loadtxt('T200_Performance-Neg.csv', delimiter=',')
 
-x = csv_data[:, 0]
-y = csv_data[:, 1]
-z = csv_data[:, 2]
+z = csv_data[:, 0]
+x = csv_data[:, 1]
+y = csv_data[:, 2]
 
 # Or as array of [x, y, z] rows
 data = np.array([x, y, z])  # shape: (3, N)
